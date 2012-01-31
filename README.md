@@ -1,0 +1,18 @@
+Developers Image Library 'DevIL' 
+http://openil.sourceforge.net/  (LGPL or BSD or similar)
+"Many people may have known DevIL as OpenIL, but the name was changed due to SGI's request.
+Developer's Image Library (DevIL) is a programmer's library to develop applications with very powerful image loading capabilities, yet is easy for a developer to learn and use. Ultimate control of images is left to the developer, so unnecessary conversions, etc. are not performed. DevIL utilizes a simple, yet powerful, syntax. DevIL can load, save, convert, manipulate, filter and display a wide variety of image formats.
+Currently, DevIL can load .bmp, .cut, .dds, .doom, .exr, .hdr, .gif, .ico, .jp2, .jpg,.lbm, .mdl, .mng, .pal, .pbm, .pcd, .pcx, .pgm, .pic, .png, .ppm, .psd, .psp, .raw, .sgi, .tga and .tif files.
+Formats supported for saving include .bmp, .dds, .h, .jpg, .pal, .pbm, .pcx, .pgm, .png, .ppm, .raw, .sgi, .tga and .tif.
+
+DevIL currently supports the following APIs for display: OpenGL, Windows GDI, SDL, DirectX and Allegro. Compilers that can compile DevIL or use it include Djgpp, MSVC++, Linux gcc, Delphi, Visual Basic, Power Basic and Dev-C++.
+
+This is a cross compile for the Blackberry Playbook OS.  Some features are disabled ...
+
+MNG
+LCMS
+JP2
+TIF
+
+NOTE: ilexr.h and ilexr.cpp  removed ( These appear to be part of ImageShack for exr files )
+
