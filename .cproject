@@ -31,6 +31,9 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.869759978" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/usr/include/freetype2"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-IL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILU/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILUT/include}&quot;"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.1783331775" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -88,7 +91,7 @@
 							<tool id="com.qnx.qcc.tool.compiler.1377040586" name="QCC Compiler" superClass="com.qnx.qcc.tool.compiler">
 								<option id="com.qnx.qcc.option.compiler.shared.817683617" name="Shared (-shared)" superClass="com.qnx.qcc.option.compiler.shared" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.optlevel.962754624" name="Optimization Level" superClass="com.qnx.qcc.option.compiler.optlevel" value="com.qnx.qcc.option.compiler.optlevel.2" valueType="enumerated"/>
-								<option id="com.qnx.qcc.option.compiler.security.2037183682" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.compiler.security.2037183682" name="Enhanced Security (-fstack-protector-all)" superClass="com.qnx.qcc.option.compiler.security" value="false" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.compiler.defines.1020809096" name="Defines (-D)" superClass="com.qnx.qcc.option.compiler.defines" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_FORTIFY_SOURCE=2"/>
 									<listOptionValue builtIn="false" value="png_set_gray_1_2_4_to_8=png_set_expand_gray_1_2_4_to_8"/>
@@ -109,7 +112,6 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/src-IL/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/src-ILU/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/src-ILUT/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.372775735" superClass="com.qnx.qcc.inputType.compiler"/>
@@ -169,6 +171,9 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.1273443290" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/usr/include/freetype2"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-IL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILU/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILUT/include}&quot;"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.254486666" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -230,6 +235,9 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.509089250" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/usr/include/freetype2"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-IL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILU/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILUT/include}&quot;"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.2134019099" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -239,7 +247,7 @@
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.852063110" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
 								<option id="com.qnx.qcc.option.linker.debug.791962451" name="Debug (-g)" superClass="com.qnx.qcc.option.linker.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.linker.coverage.1837726168" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs -p)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.linker.coverage.1837726168" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.shared.471712467" name="Shared (-shared)" superClass="com.qnx.qcc.option.linker.shared" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.langcpp.1551215331" name="C++ (-lang-c++)" superClass="com.qnx.qcc.option.linker.langcpp" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.security.1243055322" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
@@ -289,6 +297,9 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.1913174015" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/usr/include/freetype2"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-IL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILU/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILUT/include}&quot;"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.114130349" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -348,6 +359,9 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.646235502" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/usr/include/freetype2"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-IL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILU/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILUT/include}&quot;"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.1486563648" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -408,6 +422,9 @@
 								<option id="com.qnx.qcc.option.compiler.includePath.597823504" name="Include Directories (-I)" superClass="com.qnx.qcc.option.compiler.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/usr/include/freetype2"/>
 									<listOptionValue builtIn="false" value="${QNX_TARGET}/../target-override/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-IL/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILU/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DevIL/src-ILUT/include}&quot;"/>
 								</option>
 								<inputType id="com.qnx.qcc.inputType.compiler.1911626997" superClass="com.qnx.qcc.inputType.compiler"/>
 							</tool>
@@ -417,7 +434,7 @@
 							</tool>
 							<tool id="com.qnx.qcc.tool.linker.590473992" name="QCC Linker" superClass="com.qnx.qcc.tool.linker">
 								<option id="com.qnx.qcc.option.linker.debug.2124252935" name="Debug (-g)" superClass="com.qnx.qcc.option.linker.debug" value="true" valueType="boolean"/>
-								<option id="com.qnx.qcc.option.linker.coverage.712501701" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs -p)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
+								<option id="com.qnx.qcc.option.linker.coverage.712501701" name="Build for Code Coverage (-ftest-coverage -fprofile-arcs)" superClass="com.qnx.qcc.option.linker.coverage" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.shared.1741490717" name="Shared (-shared)" superClass="com.qnx.qcc.option.linker.shared" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.langcpp.342462466" name="C++ (-lang-c++)" superClass="com.qnx.qcc.option.linker.langcpp" value="true" valueType="boolean"/>
 								<option id="com.qnx.qcc.option.linker.security.1456864631" name="Enhanced Security (-Wl,-z,relro -Wl,-z,now)" superClass="com.qnx.qcc.option.linker.security" value="true" valueType="boolean"/>
@@ -467,5 +484,8 @@
 		<scannerConfigBuildInfo instanceId="com.qnx.qcc.configuration.sharedLib.debug.1408210214">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
 		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/DevIL"/>
 	</storageModule>
 </cproject>
